@@ -1,0 +1,17 @@
+body{
+
+}
+h1{
+font-family: 'Raleway', sans-serif;
+text-align: right;
+font-size: 70px;
+}
+h2{
+font-family: 'Raleway', sans-serif;
+}
+span{
+color:#f90066;	
+}
+nav{
+	position: fixed;
+}
