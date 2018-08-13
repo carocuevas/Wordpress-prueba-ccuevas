@@ -5,13 +5,48 @@ h1{
 font-family: 'Raleway', sans-serif;
 text-align: right;
 font-size: 70px;
+margin: 70px 50px 50px 50px;
 }
 h2{
 font-family: 'Raleway', sans-serif;
+padding: 20px 0 20px 0;
+font-weight: bold;
+}
+h3{
+
+}
+h4{
+
+}
+h5{
+
 }
 span{
 color:#f90066;	
 }
-nav{
+.navbar{
 	position: fixed;
+    top: 0;
+    width: 100%;
+}
+main{
+
+}
+.jumbotron{
+	background-color: white;
+	background-image: url('../images/upbanner.png');
+	background-repeat: no-repeat;
+	display: block;
+	margin-top: 0;
+	background-size: cover;
+	padding: 30px;
+}
+footer{
+	margin: 0;
+	background-color: #FFFFFF; 
+	text-align: center;
+	font-size: 10px;
+	padding: 0.7em 0 0 0;
+	border: solid 1px #eaeaea;
+	bottom: 0;
 }
