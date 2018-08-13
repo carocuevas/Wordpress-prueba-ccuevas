@@ -13,7 +13,6 @@ h2{
 	font-weight: bolder;
 	font-size: 30px; 
 	text-align: center;
-	color:#f90066;
 }
 h3{
 	font-family: 'Raleway', sans-serif;
@@ -35,7 +34,12 @@ h5{
 span{
 	color:#f90066;
 	font-weight: bolder;
-
+}
+#h3__center{
+	text-align: center;
+}
+#tittle__left{
+	text-align: left;
 }
 .navbar{
 	position: fixed;
@@ -47,13 +51,18 @@ span{
 	z-index: -1;
 	display: block;
 }
+.cardsdiv__portolio{
+	z-index: -1;
+	display: block;
+	text-align: center;
+}
 .thumbnail{
 	padding: 0px;
 	border: solid 1px #eaeaea;
 	border-radius: 0px;
 }
 main{
-
+margin-top: 100px;
 }
 .jumbotron{
 	background-color: white;
@@ -107,6 +116,51 @@ footer{
 	text-align: left;
 	font-size: 16px;
 }
+.form{
+	position: absolute;
+}
+.jcarousel-clip{
+	width: 100vw;
+	position: relative;
+	overflow: hidden;
+}
+
+.jcarousel-clip li{
+	width: 100vw;
+	float: left;
+}
+
+.jcarousel-clip li img{
+	width: 100vw;
+}
+
+#prev, #forw{
+	padding: 0;
+	background: #aaa;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	border-radius: 50px;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: arial, sans-serif;
+	display: block;
+}
+#prev{
+	position: absolute;
+	z-index: 10;
+	top: 25%;
+	left: 30vw;
+}
+
+#forw{
+	position: absolute;
+	z-index: 10;
+	right: 30vw;
+	top: 25%;
+}
+
 
 
 
