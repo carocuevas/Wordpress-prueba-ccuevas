@@ -10,16 +10,25 @@ margin: 70px 50px 50px 50px;
 h2{
 font-family: 'Raleway', sans-serif;
 padding: 20px 0 20px 0;
-font-weight: bold;
+font-weight: bolder;
+font-size: 30px; 
 }
 h3{
-
+font-family: 'Raleway', sans-serif;
+text-align: left;
+font-size: 20px;
+font-weight: bolder;
 }
 h4{
-
+font-family: 'Raleway', sans-serif;
+text-align: left;
+font-size: 18px;
+line-height: 1.6;
 }
 h5{
-
+font-family: 'Raleway', sans-serif;
+text-align: left;
+font-size: 16px;
 }
 span{
 color:#f90066;	
@@ -28,6 +37,10 @@ color:#f90066;
 	position: fixed;
     top: 0;
     width: 100%;
+    z-index: 10;
+}
+.cardsdiv{
+	z-index: -1;
 }
 main{
 
@@ -50,3 +63,31 @@ footer{
 	border: solid 1px #eaeaea;
 	bottom: 0;
 }
+#contact__background{
+	background-color: white;
+	background-image: url('../images/upbanner.png');
+	background-repeat: no-repeat;
+	display: block;
+	margin: 0;
+	background-size: cover;
+	padding: 30px;
+	margin-bottom: 0px;
+}
+.jumbotron__about{
+	background-color: white;
+	background-image: url('../images/banner5.png');
+	background-repeat: no-repeat;
+	display: block;
+	background-size: cover;
+	padding: 30px;
+	margin: 0;
+	background-position: bottom;
+}
+.btn-default{
+	background: white;
+	border: none;
+	color: #4c4c4c;
+}
+
+
+
