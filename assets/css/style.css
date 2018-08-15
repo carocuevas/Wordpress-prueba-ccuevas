@@ -35,6 +35,10 @@ span{
 	color:#f90066;
 	font-weight: bolder;
 }
+.bold{
+	font-weight: bolder;
+}
+}
 #h3__center{
 	text-align: center;
 }
@@ -94,13 +98,13 @@ footer{
 }
 .jumbotron__about{
 	background-color: white;
-	background-image: url('../images/banner5.png');
+	background-image: url('../images/upbanner.png');
 	background-repeat: no-repeat;
 	display: block;
+	margin-bottom: 0;
 	background-size: cover;
 	padding: 30px;
-	margin: 0;
-	background-position: bottom;
+	padding-top: 40px;
 }
 .btn-default{
 	background: white;
@@ -149,17 +153,30 @@ footer{
 }
 #prev{
 	position: absolute;
-	z-index: 10;
 	top: 25%;
 	left: 30vw;
 }
 
 #forw{
 	position: absolute;
-	z-index: 10;
 	right: 30vw;
 	top: 25%;
 }
+#map{
+	width:300px;
+	height:300px;
+}
+.cards__blog{
+
+}
+.cards__varias > div > div {
+	overflow: hidden;
+	border-radius: 30px;
+	border: 10px solid #ddd;
+	padding: 0;
+}
+.cards__varias > div > div p a {
+	text-transform: uppercase;
 
 
 

@@ -10,11 +10,7 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-	<script type="text/javascript" src="assets/js/jquery.js"></script>
-
-	<script type="text/javascript" src="assets/js/jcarousel.js"></script>
-
-	<script type="text/javascript" src="assets/js/script.js"></script>
+	<link rel="stylesheet" href="assets/css/flexslider.css">
 
 	<link rel="stylesheet" href="assets/css/style.css">
 
@@ -56,7 +52,7 @@
 	<section>
 		<div class="jumbotron">
 			<h2>Portfolio</h2>
-		    <div class="row cardsvarias">
+		    <div class="row cards__varias">
 
 		        <div class="col-sm-4 col-md-4">
 		          <div class="thumbnail cardsdiv">
@@ -94,6 +90,23 @@
 			</div>	
 		</div>
 
+		<div class="flexslider">
+			<ul class="slides">
+				<li data-thumb="assets/images/foto1g.jpg">
+					<img src="assets/images/foto1c.jpg" />
+				</li>
+				<li data-thumb="assets/images/foto2g.jpg">
+					<img src="assets/images/foto2c.jpg" />
+				</li>
+				<li data-thumb="assets/images/foto3g.jpg">
+					<img src="assets/images/foto3c.jpg" />
+				</li>
+				<li data-thumb="assets/images/foto1g.jpg">
+					<img src="assets/images/foto1c.jpg" />
+				</li>
+			</ul>
+		</div>
+
 		<section class="slider">
 			<div id="wrap">
 				<a id="prev" href="#">&lt;</a><a id="forw" href="#">&gt;</a>
@@ -117,12 +130,15 @@
 				</div>
 				<div class="col-md-2 name">
 					<h3>Carolina Cuevas Andreu</h3>
-					<h4>@carocuevas</h4>
-					<h5>catecuevas@gmail.com</h4>
+					<h4>A very pettit person with a very big spirit.</h4>
+					<h4></h4>
 				</div>
-				<div class="col-md-5">
-					<h4>I'm a little person with a big spirit. I ran with wolf's, and i trully love interface design. My next step is start with a UX career, for what i'm gonna do my best.</h4>
+				<div class="col-md-2">
+					<h4 class="bold">catecuevas@gmail.com</h4>
+					<h4 class="bold">Instagram</h4>
+					<h4 class="bold">Behance</h4>
 				</div>
+				<div class="col-md-2" id="map">
 			</div>
 		</section>
 
@@ -136,9 +152,13 @@
 
 	<script src="https://code.jquery.com/jquery-3.3.1.js"
 	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-	crossorigin="anonymous"></script> 
-
+	crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.4.1.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/js/jcarousel.js"></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.flexslider.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 	
 </body>
 </html>
