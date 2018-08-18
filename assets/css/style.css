@@ -179,7 +179,38 @@ footer{
 	width: 60vw;
 	margin: auto;
 }
-
+.left__column { 
+  float: left;
+  width: 70%;
+  margin-left: 20px;
+}
+.right__column {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+.blog__img {
+  background-color: #aaa;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
+}
 
 
 
