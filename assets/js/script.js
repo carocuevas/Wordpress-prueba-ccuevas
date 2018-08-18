@@ -24,9 +24,10 @@
 
 })(jQuery);
 
+
 function myMap() {
     var mapOptions = {
-        center: new google.maps.LatLng(51.5, -0.12),
+        center: new google.maps.LatLng(-33.4169657, -70.56143179999998),
         zoom: 10,
         mapTypeId: google.maps.MapTypeId.HYBRID
     }
@@ -34,9 +35,9 @@ var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 }
 
 
-$(document).ready() {
+$(window).load(function() {
   $('.flexslider').flexslider({
     animation: "slide",
     controlNav: "thumbnails"
   });
- });
+});

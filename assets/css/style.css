@@ -16,7 +16,6 @@ h2{
 }
 h3{
 	font-family: 'Raleway', sans-serif;
-	text-align: left;
 	font-size: 20px;
 	font-weight: bolder;
 }
@@ -164,19 +163,22 @@ footer{
 }
 #map{
 	width:300px;
-	height:300px;
+	height:200px;
 }
 .cards__blog{
 
 }
 .cards__varias > div > div {
 	overflow: hidden;
-	border-radius: 30px;
-	border: 10px solid #ddd;
 	padding: 0;
 }
 .cards__varias > div > div p a {
 	text-transform: uppercase;
+}
+.slider_portfolio{
+	width: 60vw;
+	margin: auto;
+}
 
 
 
