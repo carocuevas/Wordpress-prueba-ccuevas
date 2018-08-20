@@ -46,9 +46,9 @@ span{
 }
 .navbar{
 	position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 10;
+	top: 0;
+	width: 100%;
+	z-index: 10;
 }
 .cardsdiv{
 	z-index: -1;
@@ -65,7 +65,7 @@ span{
 	border-radius: 0px;
 }
 main{
-margin-top: 100px;
+	margin-top: 100px;
 }
 .jumbotron{
 	background-color: white;
@@ -180,36 +180,43 @@ footer{
 	margin: auto;
 }
 .left__column { 
-  float: left;
-  width: 70%;
-  margin-left: 20px;
+	float: left;
+	width: 70%;
+	margin-left: 20px;
 }
 .right__column {
-  float: left;
-  width: 25%;
-  padding-left: 20px;
+	float: left;
+	width: 25%;
+	padding-left: 20px;
 }
 .blog__img {
-  background-color: #aaa;
-  width: 100%;
-  margin-bottom: 20px;
-  margin-top: 20px;
+	background-color: #aaa;
+	width: 100%;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 .card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
 }
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
+}
+.single__blog{
+	padding-left: 15vw;
+	padding-right: 15vw;
+}
+.single__blog h4 {
+	font-size: 13px;
 }
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn { 
-    width: 100%;
-    padding: 0;
-  }
+	.leftcolumn, .rightcolumn { 
+		width: 100%;
+		padding: 0;
+	}
 }
 
 
