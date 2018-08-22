@@ -211,12 +211,19 @@ footer{
 .single__blog h4 {
 	font-size: 13px;
 }
+#button__submit{
+	padding: 10px 15px 10px 15px;
+	background-color:#f90066;
+	color: white;
+	text-decoration: none;
+}
 @media screen and (max-width: 800px) {
 	.leftcolumn, .rightcolumn { 
 		width: 100%;
 		padding: 0;
 	}
 }
+
 
 
 
