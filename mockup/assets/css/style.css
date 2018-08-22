@@ -217,6 +217,9 @@ footer{
 	color: white;
 	text-decoration: none;
 }
+.img__single_portfolio{
+	max-width: 100vw;
+}
 @media screen and (max-width: 800px) {
 	.leftcolumn, .rightcolumn { 
 		width: 100%;
