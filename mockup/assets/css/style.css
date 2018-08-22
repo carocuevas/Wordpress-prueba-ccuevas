@@ -90,10 +90,9 @@ footer{
 	background-image: url('../images/upbanner.png');
 	background-repeat: no-repeat;
 	display: block;
-	margin: 0;
 	background-size: cover;
-	padding: 30px;
 	margin-bottom: 0px;
+	min-height: 500px;
 }
 .jumbotron__about{
 	background-color: white;

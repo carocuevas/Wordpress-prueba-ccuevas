@@ -1,0 +1,26 @@
+<form id="#caro">
+	<input name="nombres" type="text">
+	<input name="apellidos" type="text">
+	<button type="submit">Enviar</button>
+</form>
+
+<script>
+	
+	$(document).ready(function(){
+
+		$('#caro').submit(function(){
+
+			var datos = $(this).serialize();
+
+			$.ajax({
+			  //url: "test.html",
+			  context: document.body,
+			  data: datos,
+			}).done(function() {
+			  alert('Enviado con exito');
+			});
+		});
+
+	});
+
+</script>
