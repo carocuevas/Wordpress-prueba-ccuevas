@@ -1,7 +1,7 @@
 <?php
   $loop = new WP_Query(array(
       'post_type' => 'portafolio',
-      'posts_per_page' => -1
+      'posts_per_page' => 3
   ));
 ?>
 
@@ -17,7 +17,7 @@
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/portimg1-01.png" alt="foto1">
             <div class="caption">
               <h3><?php the_title(); ?></h3>
-              <h4>Design and usability the corporative web for Inmobiliaria Absal.</h4>
+              <h4><?php the_excerpt(); ?></h4>
               <p><a href="<?php the_permalink(); ?>" class="btn btn-default" role="button">Ver más</a></p>
             </div>
           </div>
