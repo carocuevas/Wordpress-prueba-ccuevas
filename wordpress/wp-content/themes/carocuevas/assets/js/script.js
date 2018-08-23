@@ -1,30 +1,3 @@
-(function($){
-
-	function mycarousel_initCallback(carousel) {
-
-		$('#forw').bind('click', function() {
-			carousel.next();
-			return false;
-		});
-
-		$('#prev').bind('click', function() {
-			carousel.prev();
-			return false;
-		});
-	};
-
-	$("#carrusel").jcarousel({
-		scroll :1,
-		auto: 0,
-		wrap : "both",
-		initCallback: mycarousel_initCallback,
-		buttonNextHTML: null,
-		buttonPrevHTML: null
-	});
-
-})(jQuery);
-
-
 function myMap() {
     var mapOptions = {
         center: new google.maps.LatLng(-33.4169657, -70.56143179999998),
@@ -41,3 +14,22 @@ $(window).load(function() {
     controlNav: "thumbnails"
   });
 });
+
+
+$(document).ready(function(){
+
+	$('#caro').submit(function(){
+
+		var datos = $(this).serialize();
+
+		$.ajax({
+		  url: "http://186.64.118.50/~feg7carolina",
+		  context: document.body,
+		  data: datos,
+		}).done(function() {
+		  alert('Enviado con éxito');
+		});
+	});
+
+});
+

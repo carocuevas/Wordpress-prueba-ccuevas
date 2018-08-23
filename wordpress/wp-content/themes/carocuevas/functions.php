@@ -36,3 +36,6 @@ add_action( 'init', 'create_posttype' );
 
 add_theme_support('post-thumbnails');
 add_post_type_support( 'blog', 'portafolio' ); 
+
+
+show_admin_bar(false);

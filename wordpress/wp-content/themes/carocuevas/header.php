@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/flexslider.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<?php wp_head(); ?>
 </head>
 <body>
 	<nav class="navbar navbar-default">
