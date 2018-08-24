@@ -30,7 +30,7 @@ get_header(); ?>
 	    	<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 	        <div class="col-sm-4 col-md-4">
 	          <div class="thumbnail cardsdiv__portolio">
-	            <img src="<?php echo get_template_directory_uri() ?>/assets/images/portimg1-01.png" alt="foto1">
+	            <img src="<?php echo the_post_thumbnail_url( 'large' );  ?> " alt="<?php the_title(); ?>">
 	            <div class="caption">
 	              <h3 id="h3__center"><?php the_title(); ?></h3>
 	              <p><a href="<?php the_permalink(); ?>" class="btn btn-default" role="button">Ver más</a></p>

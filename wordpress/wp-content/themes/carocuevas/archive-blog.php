@@ -34,7 +34,7 @@ get_header(); ?>
 				<div class="card">
 					<h2><?php the_title(); ?></h2>
 					<h5><?php echo get_the_date(); ?></h5>
-					<img class="blog__img" src="<?php echo get_template_directory_uri() ?>/assets/images/blog1.jpeg">
+					<img src="<?php echo the_post_thumbnail_url( 'large' );  ?> " alt="<?php the_title(); ?>">
 					<?php the_excerpt(); ?>
 					<br>
 					<p><a href="<?php the_permalink(); ?>" class="btn btn-default" role="button">Ver más</a></p>
@@ -58,8 +58,8 @@ get_header(); ?>
 					<a href="singleblog.html" class="btn btn-default" role="button">Ver más</a>
 				</div>
 				<div class="card">
-					<h3>Acá van más mini reportajes</h3>
-					<p>En construcción</p>
+					<h3>Follow Me</h3>
+					<p>Some text..</p>
 				</div>
 			</div>
 		</div>

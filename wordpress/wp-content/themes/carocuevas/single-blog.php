@@ -19,13 +19,15 @@ get_header(); ?>
 
 <?php global $post; ?>
 
-<article class="single__blog">
+
 	<div class="container">
+		<article class="single__blog">
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<h2><?php the_title(); ?></h2>
 		<?php the_content(); ?>
 		<?php endwhile; endif; ?>
+		</article>
 	</div>
-</article>
+
 
 <?php get_footer();

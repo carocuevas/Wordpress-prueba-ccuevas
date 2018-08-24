@@ -1,3 +1,8 @@
+<div class="container">
+	<?php the_content(); ?>
+</div>
+
+<!--
 <div class="flexslider slider_portfolio">
 	<ul class="slides">
 		<li data-thumb="<?php echo get_template_directory_uri() ?>/assets/images/foto1c.jpg">
@@ -14,3 +19,4 @@
 		</li>
 	</ul>
 </div>
+-->

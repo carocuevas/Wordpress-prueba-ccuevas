@@ -1,5 +1,10 @@
 <?php 
 
+# Images
+
+add_theme_support('post-thumbnails');
+add_post_type_support( 'blog', 'portafolio' ); 
+
 # Post types
 
 function create_posttype() {
@@ -10,6 +15,7 @@ function create_posttype() {
         'name' => __( 'Blog' ),
         'singular_name' => __( 'Blog' )
       ),
+      'supports' => array('title', 'editor', 'thumbnail'),
       'public' => true,
       'has_archive' => true,
       'rewrite' => array('slug' => 'blog'),
@@ -22,6 +28,7 @@ function create_posttype() {
         'name' => __( 'Portafolios' ),
         'singular_name' => __( 'Portafolios' )
       ),
+      'supports' => array('title', 'editor', 'thumbnail'),
       'public' => true,
       'has_archive' => true,
       'rewrite' => array('slug' => 'portafolio'),
@@ -32,10 +39,7 @@ function create_posttype() {
 
 add_action( 'init', 'create_posttype' );
 
-# Images
 
-add_theme_support('post-thumbnails');
-add_post_type_support( 'blog', 'portafolio' ); 
 
 
 show_admin_bar(false);
