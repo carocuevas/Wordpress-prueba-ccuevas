@@ -58,8 +58,8 @@ get_header(); ?>
 					<a href="singleblog.html" class="btn btn-default" role="button">Ver más</a>
 				</div>
 				<div class="card">
-					<h3>Follow Me</h3>
-					<p>Some text..</p>
+					<h3>Acá van más mini reportajes</h3>
+					<p>En construcción</p>
 				</div>
 			</div>
 		</div>
